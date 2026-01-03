@@ -81,7 +81,7 @@ uber-ui-clone/\
     <tr>
       <td align="center"><b>Écran d'accueil</b></td>
       <td align="center"><b>Sélection de destination</b></td>
-      <td align="center"><b>Profil utilisateur</b></td>
+      <td align="center"><b>Map interactive</b></td>
     </tr>
     <tr>
       <td><img src="screenshot/2.jpg" width="250" alt="Page d'accueil"/></td>
