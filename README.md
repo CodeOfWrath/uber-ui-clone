@@ -49,17 +49,18 @@ flutter run
 
 ### 📂 Structure du Projet
 uber-ui-clone/\
+```
 ├── android/                # Configuration Android\
-├── ios/                        # Configuration iOS\
-├── lib/                        # Code source principal\
-│   ├── main.dart         # Point d'entrée de l'application\
+├── ios/                    # Configuration iOS\
+├── lib/                    # Code source principal\
+│   ├── main.dart           # Point d'entrée de l'application\
 │   ├── Pages/              # Écrans de l'application\
-│   └── widgets/           # Widgets réutilisables\
-├── assets/                   # Images, icônes et ressources\
-├── test/                       # Tests unitaires et d'intégration\
-├── pubspec.yaml        # Dépendances du projet\
-└── README.md          # Documentation
-
+│   └── widgets/            # Widgets réutilisables\
+├── assets/                 # Images, icônes et ressources\
+├── test/                   # Tests unitaires et d'intégration\
+├── pubspec.yaml            # Dépendances du projet\
+└── README.md               # Documentation
+```
 
 ### 🎯 Fonctionnalités Implémentées
 ### Écrans Principaux
