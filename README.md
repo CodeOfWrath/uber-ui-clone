@@ -34,31 +34,31 @@ cd uber-ui-clone
 
 ### 2. Installer les dépendances
 ```
-bash   flutter pub get
+flutter pub get
 ```
 
 ### 3. Vérifier la configuration Flutter
 ```
-bash   flutter doctor
+flutter doctor
 ```
 
 ### 4. Lancer l'application
 ```
-bash   flutter run
+flutter run
 ```
 
 ### 📂 Structure du Projet
 uber-ui-clone/\
-├── android/             # Configuration Android\
-├── ios/                     # Configuration iOS\
-├── lib/                     # Code source principal\
-│   ├── main.dart      # Point d'entrée de l'application\
-│   ├── Pages/          # Écrans de l'application\
-│   └── widgets/       # Widgets réutilisables\
-├── assets/               # Images, icônes et ressources\
-├── test/                   # Tests unitaires et d'intégration\
-├── pubspec.yaml    # Dépendances du projet\
-└── README.md      # Documentation
+├── android/                # Configuration Android\
+├── ios/                        # Configuration iOS\
+├── lib/                        # Code source principal\
+│   ├── main.dart         # Point d'entrée de l'application\
+│   ├── Pages/              # Écrans de l'application\
+│   └── widgets/           # Widgets réutilisables\
+├── assets/                   # Images, icônes et ressources\
+├── test/                       # Tests unitaires et d'intégration\
+├── pubspec.yaml        # Dépendances du projet\
+└── README.md          # Documentation
 
 
 ### 🎯 Fonctionnalités Implémentées
