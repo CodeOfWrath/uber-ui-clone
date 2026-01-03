@@ -205,7 +205,7 @@ class _ChooseATripPageState extends State<ChooseATripPage> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text("Choose a trip", style: TextStyle(fontSize: 30, fontWeight: FontWeight.normal),textAlign: TextAlign.center),
+                        Text("Choisir un déplacement", style: TextStyle(fontSize: 30, fontWeight: FontWeight.normal),textAlign: TextAlign.center),
                        ],
                     ),
                     SizedBox(height: 10,),

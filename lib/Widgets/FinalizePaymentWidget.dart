@@ -18,7 +18,7 @@ Widget FinalizePaymentWidget(BuildContext context, String price, String title, S
     child: Column(mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [Row(mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          Text("$title \n£$price", style: TextStyle(fontSize: 33,height: 1 , fontWeight: FontWeight.bold,),textAlign: TextAlign.start,),
+          Text("$title \n$price FCFA", style: TextStyle(fontSize: 33,height: 1 , fontWeight: FontWeight.bold,),textAlign: TextAlign.start,),
         ],
       ),
         InkWell(

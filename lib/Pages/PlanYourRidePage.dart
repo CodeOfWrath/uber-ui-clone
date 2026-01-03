@@ -131,7 +131,7 @@ class _PlanYourRidePageState extends State<PlanYourRidePage> {
             },
             icon: Icon(Icons.arrow_back, size: 35),
           ),
-          title: Text("Plan your ride", style: TextStyle(fontSize: 35)),
+          title: Text("Planifiez votre déplacement", style: TextStyle(fontSize: 35)),
           centerTitle: true,
           bottom: PreferredSize(
             preferredSize: Size.square(250),
@@ -144,8 +144,8 @@ class _PlanYourRidePageState extends State<PlanYourRidePage> {
                         scrollDirection: Axis.horizontal,
                         children: [
                           SizedBox(width: 10),
-                          RoundWidget(Icons.access_time_filled, "Pick up now", true),
-                          RoundWidget(Icons.arrow_forward, "One way", true),
+                          RoundWidget(Icons.access_time_filled, "prendre maintenant", true),
+                          RoundWidget(Icons.arrow_forward, "Allé simple", true),
                           RoundWidget(Icons.person, "Four", true),
                         ])),
                 SizedBox(height: 30),
@@ -268,7 +268,7 @@ class _PlanYourRidePageState extends State<PlanYourRidePage> {
                       onPressed: validateSelection,
                       icon: Icon(Icons.check, color: Colors.white),
                       label: Text(
-                        "VALID",
+                        "VALIDER",
                         style: TextStyle(fontSize: 20, color: Colors.white),
                       ),
                       style: ElevatedButton.styleFrom(

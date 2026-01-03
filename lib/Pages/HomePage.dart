@@ -18,7 +18,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  String dropdownValue = 'Now';
+  String dropdownValue = 'Maintenant';
 
   @override
   Widget build(BuildContext context) {
@@ -54,8 +54,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       },
                       child: TextFormField(
                         readOnly: true,
-                        initialValue: 'Where to?',
-                        style: TextStyle(fontSize: 35,),
+                        initialValue: "Où aller ?",
+                        style: TextStyle(fontSize: 30,),
                         textAlign: TextAlign.left,
                         decoration: InputDecoration(border: InputBorder.none),
                       ),
@@ -80,15 +80,15 @@ class _MyHomePageState extends State<MyHomePage> {
                               dropdownValue = newValue!;
                             });
                           },
-                          items: <String>['Now', 'Later']
+                          items: <String>['Maintenant', 'Plus-tard']
                               .map<DropdownMenuItem<String>>((String value) {
                             return DropdownMenuItem<String>(
                               value: value,
                               child: Row(
                                 children: [
-                                  Icon(Icons.access_time_filled, size: 18),
+                                  Icon(Icons.access_time_filled, size: 15),
                                   SizedBox(width: 5),
-                                  Text(value),
+                                  Text(value, style: TextStyle(fontSize: 15)),
                                 ],
                               ),
                             );
@@ -118,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
             ),
             SizedBox(height: 30,),
-            FinalizePaymentWidget(context, '170.71', "Filalize payment:", "Pay"),
+            FinalizePaymentWidget(context, '1500', "Finaliser le payement:", "Payer"),
             Divider(height: 11, thickness: 10, color: Colors.black12,),
             Container(
               margin: EdgeInsets.only(top: 25, bottom: 10, left: 15, right: 15),
@@ -130,7 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   Title(color: Colors.black, child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text("Suggestions", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
-                      TextButton(onPressed: (){}, child: Text("See all", style: TextStyle(fontSize: 20),))
+                      TextButton(onPressed: (){}, child: Text("Voir plus", style: TextStyle(fontSize: 20),))
                     ],
                   )),
                   Expanded(
@@ -160,16 +160,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   Title(color: Colors.black, child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Ways to save with Uber", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
+                      Text("Moyens d'épargner avec Uber", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
                     ],
                   )),
                   Expanded(
                       child: ListView(
                           scrollDirection: Axis.horizontal,
                           children:  [
-                            UberPlanWidget(context,'assets/icone.png', 'Uber Moto rides','Affordable motorcycle pick-ups'),
+                            UberPlanWidget(context,'assets/icone.png', 'Uber Trajet Moto','Des traget à moto abordables'),
                             SizedBox(width: 15,),
-                            UberPlanWidget(context,'assets/icone.png', 'Shuttle rides','Low fares, premium service'),
+                            UberPlanWidget(context,'assets/icone.png', 'Promenades en navette','Tarifs avantageux, service de qualité supérieure'),
 
                           ]
                       )
@@ -189,16 +189,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   Title(color: Colors.black, child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Ways to save with Uber", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
+                      Text("Moyens planifier avec Uber", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
                     ],
                   )),
                   Expanded(
                       child: ListView(
                           scrollDirection: Axis.horizontal,
                           children:  [
-                            UberPlanWidget(context,'assets/icone.png', 'Uber Moto rides','Affordable motorcycle pick-ups'),
+                            UberPlanWidget(context,'assets/icone.png', 'Voyage intercité','Obtenez une location à distance avec'),
                             SizedBox(width: 15,),
-                            UberPlanWidget(context,'assets/icone.png', 'Shuttle rides','Low fares, premium service'),
+                            UberPlanWidget(context,'assets/icone.png', 'location horaire','Conduire de 1 à 12'),
 
                           ]
                       )

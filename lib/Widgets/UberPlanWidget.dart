@@ -10,7 +10,7 @@ Widget UberPlanWidget(BuildContext context, String image, String Title, String D
       child: Column(mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
-            height: 180,
+            height: 200,
             width: MediaQuery.of(context).size.width/1.58,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
